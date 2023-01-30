@@ -19,9 +19,9 @@ RUN apt-get update
 CMD ["echo", "helloworld! from my first docker image"]
 #to save and exit : esc :wq! enter
 #Step 3: build the image by
-docker build -t imagename
+docker build -t imagename .
 #for tags
-docker build -t imagename:tag
+docker build -t imagename:tag .
 #Step 4: after building u can check for the image and also can run it
 #if you run it should print:helloworld! from my first docker image
 Step 5:deploy on docker hub via:
